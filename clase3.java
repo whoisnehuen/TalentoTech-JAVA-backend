@@ -11,10 +11,12 @@
 ○ Tené una lista de productos con nombres desprolijos.
 ○ Creá un método que recorra la lista y aplique el formateo a cada nombre, volviendo a imprimir la lista con nombres prolijos. */
 
-
+import java.util.ArrayList;
 public class clase3 {
     public static void main(String[] args) {
+        // Manipulación de cadenas
         String cadena = " té CHAi ";
+        System.out.println(cadena);
         cadena = cadena.trim();
         cadena = cadena.toLowerCase();
         String[] palabras = cadena.split(" ");
@@ -36,7 +38,7 @@ public class clase3 {
         System.out.println("Primera letra: " + resultado.substring(0, 1));
         System.out.println("Contiene la palabra 'Chai': " + resultado.contains("Chai"));
         
-    }
+}
 }
 
 
