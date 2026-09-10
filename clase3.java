@@ -31,9 +31,10 @@ public class clase3 {
             
         }
         String resultado = sb.toString();
-        System.out.println(cadena);
-        System.out.println("Longitud: " + cadena.length());
-        System.out.println(cadena.substring( 0,  1));
+        System.out.println("Cadena formateada: " + resultado);
+        System.out.println("Longitud: " + resultado.length());
+        System.out.println("Primera letra: " + resultado.substring(0, 1));
+        System.out.println("Contiene la palabra 'Chai': " + resultado.contains("Chai"));
         
     }
 }
