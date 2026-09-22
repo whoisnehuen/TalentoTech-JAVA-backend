@@ -22,5 +22,8 @@ public abstract class Producto {
     public void setStock(int stock) {
         this.stock = stock;
     }
+    public double getPrecio() {
+        return precio;
+    }
     public abstract double calcularPrecioFinal();
 }

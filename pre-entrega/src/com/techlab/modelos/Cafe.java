@@ -7,6 +7,6 @@ public class Cafe extends Producto implements Descontable {
     }
     @Override 
     public double calcularPrecioFinal() {
-        return precio * descuento; // Ejemplo de cálculo con un 10% de descuento
+        return precio * descuento;
     }
 }

@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import com.techlab.modelos.*;
 
 public class Catalogo {
-    private static ArrayList<Producto> productos = new ArrayList<>();
+    public static ArrayList<Producto> productos = new ArrayList<>();
     public static ArrayList<String> pedidos = new ArrayList<>();
     static{
         productos.add(new Te("Verde", 100, 10));
