@@ -9,3 +9,9 @@
 - Mové las clases Producto, Bebida, Comida al paquete com.techlab.productos.
 - Mové las excepciones a com.techlab.excepciones.
 - Ajustá los imports en el main.
+4. Módulos:
+- Creá un módulo com.techlab.negocio con un module-info.java.
+- Exportá el paquete com.techlab.productos.
+- Simulá que otro módulo com.techlab.ui importa y utiliza Producto.
+
+// estoy cansado, Jefe
