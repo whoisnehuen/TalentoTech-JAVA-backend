@@ -1,7 +1,6 @@
-package list;
+package com.nehueen.techlab.models;
 
 import java.util.ArrayList;
-import com.nehueen.techlab.models.*;
 
 public class Catalogo {
     public static ArrayList<Producto> productos = new ArrayList<>();

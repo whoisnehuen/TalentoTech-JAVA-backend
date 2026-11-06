@@ -1,6 +1,6 @@
-package services;
+package com.nehueen.techlab.services;
 
-import list.Catalogo;
+import com.nehueen.techlab.models.Catalogo;
 
 public class showOrder {
     public static void ejecutar() {

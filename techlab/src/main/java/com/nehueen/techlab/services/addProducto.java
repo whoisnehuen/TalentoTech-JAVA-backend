@@ -1,7 +1,6 @@
-package services;
+package com.nehueen.techlab.services;
 
 import com.nehueen.techlab.models.*;
-import list.Catalogo;
 
 public class addProducto {
     public static void ejecutar(String tipo, String nombre, double precio, int stock) {

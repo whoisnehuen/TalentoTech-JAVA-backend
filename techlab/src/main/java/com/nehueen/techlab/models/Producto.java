@@ -1,10 +1,17 @@
 package com.nehueen.techlab.models;
 
+import jakarta.persistence.*;
+
 interface Descontable {
     void aplicarDescuento(double porcentaje);
 }
 
+@Entity
+@Table(name = "producto")
 public abstract class Producto {
+    @Id 
+    @GeneratedValue (strategy = GenerationType.IDENTITY)
+    private int id;
     private String nombre;
     protected double precio;
     private int stock;
@@ -12,6 +19,9 @@ public abstract class Producto {
         this.nombre = nombre;
         this.precio = precio;
         this.stock = stock;
+    }
+    public int getId() {
+        return id;
     }
     public String getNombre() {
         return nombre;

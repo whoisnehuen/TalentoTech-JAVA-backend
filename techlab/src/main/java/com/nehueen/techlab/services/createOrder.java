@@ -1,9 +1,8 @@
-package services;
+package com.nehueen.techlab.services;
 
 import com.nehueen.techlab.models.*;
 import exceptions.StockInsuficienteException;
 import exceptions.ProductoNoEncontradoException;
-import list.Catalogo;
 public class createOrder {
     public static void ejecutar(String nombre, int cantidad) throws ProductoNoEncontradoException, StockInsuficienteException {
         for (Producto p : Catalogo.productos) {

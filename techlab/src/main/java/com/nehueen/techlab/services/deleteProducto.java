@@ -1,6 +1,7 @@
-package services;
+package com.nehueen.techlab.services;
 
-import list.Catalogo;
+import com.nehueen.techlab.models.Catalogo;
+
 import exceptions.ProductoNoEncontradoException;
 public class deleteProducto {
     public static void ejecutar(String nombre) throws ProductoNoEncontradoException {

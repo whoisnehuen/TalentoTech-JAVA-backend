@@ -1,7 +1,7 @@
-package services;
+package com.nehueen.techlab.services;
 
 import com.nehueen.techlab.models.*;
-import list.Catalogo;
+
 import exceptions.ProductoNoEncontradoException;
 
 public class updateProducto {
